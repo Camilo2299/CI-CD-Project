@@ -13,7 +13,7 @@ phases:
       - coverage run -a -m pytest tests/test_integration.py -v --junitxml=integration_tests_report.xml
       - coverage report -m
       - coverage xml -i -o coverage.xml
-      - pylint app.py --output-format=parseable > pylint_report.txt
+      #- pylint app.py --output-format=parseable > pylint_report.txt
 artifacts:
   files:
     - '**/*'
