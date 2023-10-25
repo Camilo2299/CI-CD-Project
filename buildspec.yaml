@@ -26,7 +26,7 @@ reports:
   coverage:
     files:
       - 'coverage.xml'
-    file-format: 'Cobertura'
+    file-format: 'COVERAGEXML'
 
 
 artifacts:
