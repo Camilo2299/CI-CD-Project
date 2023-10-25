@@ -6,7 +6,6 @@ phases:
       python: 3.11
   pre_build:
     commands:
-      - pip install --upgrade aws-sam-cli
       - pip install -r requirements.txt
   build:
     commands:
