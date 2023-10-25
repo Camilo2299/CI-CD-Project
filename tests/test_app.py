@@ -1,5 +1,5 @@
 import unittest
-from app import agregar_gasto_logic, eliminar_gasto_logic, obtener_lista_de_gastos
+from application import agregar_gasto_logic, eliminar_gasto_logic, obtener_lista_de_gastos
 
 class AppFunctionsTestCase(unittest.TestCase):
 

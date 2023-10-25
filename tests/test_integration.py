@@ -1,6 +1,6 @@
 import unittest
 from flask_testing import TestCase
-from app import app, gastos, agregar_gasto_logic
+from application import app, gastos, agregar_gasto_logic
 
 class TestApp(TestCase):
 
