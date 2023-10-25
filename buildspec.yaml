@@ -6,7 +6,9 @@ phases:
       python: 3.11
   pre_build:
     commands:
+      - pip install --upgrade pip
       - pip install -r requirements.txt
+      - pip install --upgrade aws-sam-cli
   build:
     commands:
       - coverage run -m pytest tests/test_app.py -v --junitxml=unit_tests_report.xml
