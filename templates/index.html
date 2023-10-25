@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Gastos</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Gastos</h1>
+        <ul class="gastos-list">
+            {% for gasto in gastos %}
+                <li class="gasto-item">
+                    <span class="descripcion">{{ gasto.descripcion }}</span>
+                    <span class="monto">${{ gasto.monto }}</span>
+                    <form method="POST" action="{{ url_for('eliminar_gasto') }}" class="eliminar-form">
+                        <input type="hidden" name="gasto_index" value="{{ loop.index0 }}">
+                        <button type="submit" class="btn-eliminar">Eliminar</button>
+                    </form>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('agregar_gasto') }}" class="btn-agregar">Agregar Gasto</a>
+    </div>
+</body>
+</html>
+
