@@ -1,12 +1,12 @@
 import unittest
 from flask_testing import TestCase
-from application import app, gastos, agregar_gasto_logic
+from application import application, gastos, agregar_gasto_logic
 
 class TestApp(TestCase):
 
     def create_app(self):
-        app.config['TESTING'] = True
-        return app
+        application.config['TESTING'] = True
+        return application
 
     def setUp(self):
         # Lógica de negocio
