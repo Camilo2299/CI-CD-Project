@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 # Lista para almacenar los gastos
 gastos = []
@@ -17,12 +17,12 @@ def obtener_lista_de_gastos():
     return gastos
 
 # Rutas de Flask
-@app.route('/')
+@application.route('/')
 def index():
     gastos = obtener_lista_de_gastos()
     return render_template('index.html', gastos=gastos)
 
-@app.route('/agregar_gasto', methods=['GET', 'POST'])
+@application.route('/agregar_gasto', methods=['GET', 'POST'])
 def agregar_gasto():
     if request.method == 'POST':
         descripcion = request.form['descripcion']
@@ -31,7 +31,7 @@ def agregar_gasto():
         return redirect(url_for('index'))
     return render_template('agregar_gasto.html')
 
-@app.route('/eliminar_gasto', methods=['POST'])
+@application.route('/eliminar_gasto', methods=['POST'])
 def eliminar_gasto():
     if request.method == 'POST':
         gasto_index = int(request.form['gasto_index'])
@@ -39,4 +39,4 @@ def eliminar_gasto():
     return redirect(url_for('index'))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    application.run(debug=True)
