@@ -13,7 +13,22 @@ phases:
       - coverage run -a -m pytest tests/test_integration.py -v --junitxml=integration_tests_report.xml
       - coverage report -m
       - coverage xml -i -o coverage.xml
-      #- pylint app.py --output-format=parseable > pylint_report.txt
+
+reports:
+  unit-test-report:
+    files:
+      - 'unit_tests_report.xml'
+    file-format: 'JUNITXML'
+  integration-test-report:
+    files:
+      - 'integration_tests_report.xml'
+    file-format: 'JUNITXML'
+  coverage-report:
+    files:
+      - 'coverage.xml'
+    file-format: 'JACOCOXML'
+
+
 artifacts:
   files:
     - '**/*'
