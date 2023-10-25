@@ -23,10 +23,10 @@ reports:
     files:
       - 'integration_tests_report.xml'
     file-format: 'JUNITXML'
-  coverage-report:
+  coverage:
     files:
       - 'coverage.xml'
-    file-format: 'JACOCOXML'
+    file-format: 'Cobertura'
 
 
 artifacts:
