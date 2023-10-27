@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T19:58:33.780Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="RIgJCsk5ppPTG5U8vKea" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T20:01:09.455Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="K1qFBJvb7Z0pQ41NhXJV" version="22.0.8" type="github">
   <diagram name="Página-1" id="FNVlxbY_5hZAIGMPvLUF">
     <mxGraphModel dx="2201" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,7 +133,7 @@
         </mxCell>
         <mxCell id="_gJMpbhh8tDrJYMOvGbk-15" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;i style=&quot;font-size: 13px;&quot;&gt;Zoom in&lt;/i&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_gJMpbhh8tDrJYMOvGbk-2" vertex="1" connectable="0">
           <mxGeometry x="0.2452" y="5" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="3" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_gJMpbhh8tDrJYMOvGbk-5" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -290,7 +290,7 @@
           <mxGeometry x="430" y="1225.25" width="23.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bMQTNXucKIsjqaGq3fRy-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;" parent="1" vertex="1">
-          <mxGeometry x="640" y="1215.25" width="20" height="40" as="geometry" />
+          <mxGeometry x="643" y="1219.25" width="20" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bMQTNXucKIsjqaGq3fRy-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="283.75" y="1370.25" width="132" height="70" as="geometry" />
