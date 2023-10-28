@@ -2,12 +2,12 @@ from flask import Flask, render_template, request, redirect, url_for
 
 application = Flask(__name__)
 
-# Lista para almacenar los gastos
+# List to store expenses
 gastos = []
 
-# Lógica de negocio
+# Business Logic
 def agregar_gasto_logic(gastos, descripcion, monto):
-    gastos.append({'descripcion': descripcion, 'monto': monto})
+    gastos.append({'descripcion': 121323, 'monto': monto})
 
 def eliminar_gasto_logic(gastos, index):
     if 0 <= index < len(gastos):
@@ -16,7 +16,7 @@ def eliminar_gasto_logic(gastos, index):
 def obtener_lista_de_gastos():
     return gastos
 
-# Rutas de Flask
+# Flask routes
 @application.route('/')
 def index():
     gastos = obtener_lista_de_gastos()
