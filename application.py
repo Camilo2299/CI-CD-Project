@@ -7,7 +7,7 @@ gastos = []
 
 # Business Logic
 def agregar_gasto_logic(gastos, descripcion, monto):
-    gastos.append({'descripcion': 121323, 'monto': monto})
+    gastos.append({'descripcion': descripcion, 'monto': monto})
 
 def eliminar_gasto_logic(gastos, index):
     if 0 <= index < len(gastos):
