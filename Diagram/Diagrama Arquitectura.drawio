@@ -1,9 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2023-10-28T14:26:52.015Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="964rQ9iuT6BrKMsi5RoS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-28T14:27:37.471Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oXNSMbFURgdIhpoKvs0L" version="22.0.8" type="github">
   <diagram name="Página-1" id="pmVrY0VWK7ATdB3Wxbfq">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-150" width="960" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="544" y="165" width="472" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-3" value="BackEnd &lt;br&gt;Gestor de Gastos" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_beanstalk;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="874.5" y="228.5" width="67.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cfN2xouVaXsw6JgOAKd7-5" target="cfN2xouVaXsw6JgOAKd7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="563.25" y="55" />
+              <mxPoint x="563.25" y="55" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-5" value="https:://www.gestorgastos.com.co" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.route_53;" vertex="1" parent="1">
+          <mxGeometry x="373.25" y="-8.5" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cfN2xouVaXsw6JgOAKd7-7" target="cfN2xouVaXsw6JgOAKd7-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1086.75" y="50" />
+              <mxPoint x="1086.75" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-7" value="Cluster de EKS" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.eks;" vertex="1" parent="1">
+          <mxGeometry x="986.75" y="10" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cfN2xouVaXsw6JgOAKd7-9" target="cfN2xouVaXsw6JgOAKd7-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="633.25" y="47" />
+              <mxPoint x="633.25" y="47" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-9" value="CloudFront &lt;br&gt;FrontEnd" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="533.25" y="-8.5" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cfN2xouVaXsw6JgOAKd7-11" target="cfN2xouVaXsw6JgOAKd7-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="966.75" y="46" />
+              <mxPoint x="966.75" y="46" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-11" value="Balanceador de carga&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.classic_load_balancer;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="843.25" y="10" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cfN2xouVaXsw6JgOAKd7-13" target="cfN2xouVaXsw6JgOAKd7-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-13" value="https:://www.back-gestorgastos.com.co" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.route_53;" vertex="1" parent="1">
+          <mxGeometry x="684.25" y="-8.5" width="80" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-14" value="ms-gestor" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="1136.75" y="20" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-15" value="Minimo Producto Viable" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="165" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cfN2xouVaXsw6JgOAKd7-17" target="cfN2xouVaXsw6JgOAKd7-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-17" value="Repositorio&lt;br&gt;GitHub" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="1">
+          <mxGeometry x="618" y="250" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cfN2xouVaXsw6JgOAKd7-19" target="cfN2xouVaXsw6JgOAKd7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-19" value="Code Deploy&lt;br&gt;Pipeline Stage de Build&lt;br&gt;Stage de Deploy" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codedeploy;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="738" y="234.5" width="67.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="cfN2xouVaXsw6JgOAKd7-20" value="Gestor de Gastos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-140" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
